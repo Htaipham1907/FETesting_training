@@ -1,0 +1,23 @@
+.formButton{
+    background: white;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    font-weight: normal;
+    box-shadow: 0px 0px 5px gray;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom:20px;
+    right:30px;
+}
+
+.formButton:hover{
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+.formButton:active{
+    transform: scale(.9);
+}

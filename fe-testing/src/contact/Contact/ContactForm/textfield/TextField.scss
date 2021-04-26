@@ -1,0 +1,13 @@
+@import '../../../../resource/css/variable.scss';
+
+
+.form-container {
+  h1 {
+    color: $primary-color-3;
+  }
+  .error {
+    color: red;
+    font-size: 13px;
+    position:absolute;
+  }
+}

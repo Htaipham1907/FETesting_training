@@ -1,0 +1,46 @@
+@import '../../../resource/css/variable.scss';
+
+.form-container{
+  background-color: rgba(255,255,255,.95);
+  width: 750px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  ::placeholder{
+    font-family: $primary-font;
+  }
+  .error{
+    color:red;
+    font-size:13px;
+    position: absolute;
+  }
+  .namefield,.selectfield,.messagefield{
+    background: white;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    box-shadow:1px 1px 5px gray;
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    select{
+      margin:0 auto;
+    }
+  }
+  input,select,textarea{
+    outline:none;
+    border:none;
+  }
+  .messagefield{
+    min-height:70px;
+    max-height: 120px;
+
+    textarea{
+      min-width:200px;
+      max-width:200px;
+      min-height:70px;
+      max-height:120px;
+    }
+  }
+}
+

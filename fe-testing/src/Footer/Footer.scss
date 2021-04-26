@@ -1,0 +1,47 @@
+.foot-container{
+    margin-top:5rem;
+    width:100%;
+    font-size:16px;
+    .myFooter{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .content{
+            margin-left:20px;
+        }
+        
+        .social-icon{
+            margin-right:20px;
+
+            .fa{
+                width: fit-content;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+            }
+            
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+              }
+            
+              .fa-linkedin {
+                background: #007bb5;
+                color: white;
+              }
+              
+              .fa-youtube {
+                background: #bb0000;
+                color: white;
+              }
+        }
+        
+        
+    }
+}
+
+
+
+
+
